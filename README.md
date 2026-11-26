@@ -18,14 +18,18 @@ Trang quản trị Web độc lập (tách biệt hoàn toàn khỏi dự án Fl
   - `customers/` — Theo dõi tài khoản khách hàng & kiểm duyệt nhận xét
 
 ## Cách chạy
+1. Chạy PocketBase từ repo Mobile (ackend/) tại `http://127.0.0.1:8090`.
+2. Chạy trang Admin:
 ```powershell
-cd d:\Project\staybooking-admin
 npm install
 npm run dev
 ```
-Truy cập: `http://localhost:5173`
+Truy cập: `http://localhost:5173`. Địa chỉ PocketBase đặt trong `.env` (`VITE_POCKETBASE_URL`).
+
+Hướng dẫn đầy đủ (PocketBase, Admin, Android): [docs/HuongDan_ChayDuAn_StayBooking.docx](docs/HuongDan_ChayDuAn_StayBooking.docx)
 
 ## Tài khoản quản trị mặc định (PocketBase Superuser)
 - **Email**: `admin@staybooking.vn`
 - **Mật khẩu**: `AdminStayBooking2026!`
+
 
